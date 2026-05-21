@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <!--
+        Appenders = Yahan define karo KAHAN logs jaayenge
+        2 appenders banaye hain —
+        1. Console  → Terminal mein dikhega
+        2. File     → .log file mein save hoga
+    -->
+    <Appenders>
+
+        <!-- APPENDER 1 — Console pe print karo -->
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <!--
+                PatternLayout = Log ka format kya hoga
+                %d  = Date aur time
+                %-5level = Log level (INFO, ERROR etc.) — 5 characters wide
+                %logger{36} = Logger ka naam (class name)
+                %msg = Tumhara actual message
+                %n  = Naya line
+            -->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- APPENDER 2 — File mein save karo -->
+        <File name="FileAppender" fileName="Logs/automation.log" append="true">
+            <!--
+                fileName = Kahan save ho — Logs folder mein automation.log file
+                append="true" = Purane logs delete mat karo, naaye add karo
+            -->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"/>
+        </File>
+
+    </Appenders>
+
+    <!--
+        Loggers = Define karo KAUN logs capture kare
+        aur KAUNSE LEVEL se upar capture kare
+    -->
+    <Loggers>
+        <Root level="info">
+            <!--
+                level="info" matlab —
+                INFO, WARN, ERROR, FATAL sab capture hoga
+                TRACE aur DEBUG ignore hoga
+            -->
+
+            <!-- Dono appenders se connect karo -->
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

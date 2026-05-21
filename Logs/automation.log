@@ -1,0 +1,60 @@
+2026-05-06 19:54:00 INFO  MyStore - URL opened successfully
+2026-05-06 19:54:00 INFO  MyStore - ================== AddtoCart method started==============
+2026-05-06 19:54:00 INFO  MyStore - STEP 1 START → Clicking Ecommerce link
+2026-05-06 19:54:02 INFO  MyStore - STEP 1 DONE ✅
+2026-05-06 19:54:02 INFO  MyStore - STEP 2 START → Entering Email
+2026-05-06 19:54:02 INFO  MyStore - STEP 2 DONE ✅
+2026-05-06 19:54:02 INFO  MyStore - STEP 3 START → Entering Password
+2026-05-06 19:54:02 INFO  MyStore - STEP 3 DONE ✅
+2026-05-06 19:54:02 INFO  MyStore - STEP 4 START → Clicking Submit button
+2026-05-06 19:54:02 INFO  MyStore - STEP 4 DONE ✅
+2026-05-06 19:54:02 INFO  MyStore - STEP 5 START → Clicking Add to Cart
+2026-05-06 19:54:13 ERROR MyStore - Test failed with exception: element not interactable
+  (Session info: chrome=147.0.7727.138)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a904b8419f8bd90effff57360e13f8f7, clickElement {id=f.8F8E11E2B45BADF9FF8E2A94086A4E8A.d.06B91736C6AEE627AB983B659C9763AA.e.38}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60218}, goog:processID: 57440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60218/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a904b8419f8bd90effff57360e13f8f7)] -> xpath: (//button[text()='ADD TO CART'])[1]]
+Session ID: a904b8419f8bd90effff57360e13f8f7
+2026-05-06 20:03:47 INFO  MyStore - URL opened successfully
+2026-05-06 20:03:47 INFO  MyStore - ================== AddtoCart method started==============
+2026-05-06 20:03:47 INFO  MyStore - STEP 1 START → Clicking Ecommerce link
+2026-05-06 20:03:48 INFO  MyStore - STEP 1 DONE ✅
+2026-05-06 20:03:48 INFO  MyStore - STEP 2 START → Entering Email
+2026-05-06 20:03:49 INFO  MyStore - STEP 2 DONE ✅
+2026-05-06 20:03:49 INFO  MyStore - STEP 3 START → Entering Password
+2026-05-06 20:03:49 INFO  MyStore - STEP 3 DONE ✅
+2026-05-06 20:13:24 INFO  MyStore - URL opened successfully
+2026-05-06 20:13:24 INFO  MyStore - ================== AddtoCart method started==============
+2026-05-06 20:13:24 INFO  MyStore - STEP 1 START → Clicking Ecommerce link
+2026-05-06 20:13:25 INFO  MyStore - STEP 1 DONE ✅
+2026-05-06 20:13:25 INFO  MyStore - STEP 2 START → Entering Email
+2026-05-06 20:13:25 INFO  MyStore - STEP 2 DONE ✅
+2026-05-06 20:13:25 INFO  MyStore - STEP 3 START → Entering Password
+2026-05-06 20:13:25 INFO  MyStore - STEP 3 DONE ✅
+2026-05-06 20:13:25 INFO  MyStore - STEP 4 START → Clicking Submit button
+2026-05-06 20:13:26 INFO  MyStore - STEP 4 DONE ✅
+2026-05-06 20:13:26 INFO  MyStore - STEP 5 START → Clicking Add to Cart
+2026-05-06 20:13:36 ERROR MyStore - Test failed with exception: element not interactable
+  (Session info: chrome=147.0.7727.138)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57796b404ae19865182a37d84e4a238b, clickElement {id=f.4E447E202DAE211AB37D556C7829A955.d.97682B33A6F0DC09E905ECC88B28278B.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\himan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54366}, goog:processID: 56380, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54366/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (57796b404ae19865182a37d84e4a238b)] -> xpath: (//button[text()='ADD TO CART'])[1]]
+Session ID: 57796b404ae19865182a37d84e4a238b
+2026-05-06 20:15:42 INFO  MyStore - URL opened successfully
+2026-05-06 20:15:42 INFO  MyStore - ================== AddtoCart method started==============
+2026-05-06 20:15:42 INFO  MyStore - STEP 1 START → Clicking Ecommerce link
+2026-05-06 20:15:43 INFO  MyStore - STEP 1 DONE ✅
+2026-05-06 20:15:43 INFO  MyStore - STEP 2 START → Entering Email
+2026-05-06 20:15:43 INFO  MyStore - STEP 2 DONE ✅
+2026-05-06 20:15:43 INFO  MyStore - STEP 3 START → Entering Password
+2026-05-06 20:15:43 INFO  MyStore - STEP 3 DONE ✅
+2026-05-06 20:15:43 INFO  MyStore - STEP 4 START → Clicking Submit button
+2026-05-06 20:15:43 INFO  MyStore - STEP 4 DONE ✅
+2026-05-06 20:15:43 INFO  MyStore - STEP 5 START → Clicking Add to Cart
+2026-05-06 20:15:44 INFO  MyStore - STEP 5 DONE ✅
